@@ -43,7 +43,7 @@ const NavBar = () => {
       </ul>
 
       <div
-        className='cursor-pointer text-gray-500 hover:scale-110 duration-200'
+        className='cursor-pointer text-gray-500 hover:scale-110 duration-200 z-10 md:hidden'
         onClick={() => setNav(!nav)}
       >
         {nav ? <CloseIcon /> : <MenuIcon />}
